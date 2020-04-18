@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   namespace :twitter do
     resources :timeline
+    resources :users
   end
 
   get 'welcome/index'
