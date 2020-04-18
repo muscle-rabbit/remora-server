@@ -1,5 +1,3 @@
-require 'dotenv/load'
-
 class Twitter::BaseController < ApplicationController
   attr_reader :client
   def initialize
